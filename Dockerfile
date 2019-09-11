@@ -4,4 +4,6 @@ From tomcat
 
 # Maintainer 
 MAINTAINER "gkpilania@gmail.com" 
+
+# copy war file on to container
 COPY ./webapp.war /usr/local/tomcat/webapps
